@@ -1,0 +1,34 @@
+import Ember from 'ember';
+
+var products = [{
+  no: 0,
+  owner: "Kingsman",
+  city: "England",
+  type: "Suit"
+}, {
+  no: 1,
+  owner: "Rolex",
+  city: "Switzerland",
+  type: "Watch"
+}, {
+  no: 2,
+  owner: "Strathisla",
+  city: "Scotland",
+  type: "Whisky"
+}, {
+  no: 3,
+  owner: "Chivas",
+  city: "Columbia",
+  type: "Cigar"
+}, {
+  no: 4,
+  owner: "Oxford",
+  city: "England",
+  type: "Shoe"
+}];
+
+export default Ember.Route.extend({
+  model() {
+    return products;
+  }
+});

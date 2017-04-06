@@ -1,0 +1,93 @@
+<!--Beginning of header-->
+<h1 style="text-align:center"> Welcome to E-commerce </h1>
+<!--End of header-->
+
+<!--Beginning of shapes in the body-->
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+			<div class="shape">
+				<a href="{URL}" class="overlay {round|hexagon|pentagon}"></a>
+				<div class="details">
+					<span class="heading">Suits</span>
+					<hr>
+					<p>This is a premium suits from Kingsman's tailors</p>
+					<a href="{URL}" class="button">VIEW</a>
+				</div>
+				<div class="bg"></div>
+				<div class="base">
+					<img src="https://cdn.squaremile.com/gallery/54c77ef73c960.jpeg" alt="Suits" height="304" width="304">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="shape">
+				<a href="{URL}" class="overlay {round|hexagon|pentagon}"></a>
+				<div class="details">
+					<span class="heading">Watches</span>
+					<hr>
+					<p>This are high classic watches for you</p>
+					<a href="{URL}" class="button">VIEW</a>
+				</div>
+				<div class="bg"></div>
+				<div class="base">
+					<img src="http://3.bp.blogspot.com/_04kZGR_ltmE/SxL-IDpKsnI/AAAAAAAAFTE/oaXxC-V1GbA/s1600/Magrette-Taniwha-2.jpg" alt="Watches" height="304" width="304">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="shape">
+				<a href="{URL}" class="overlay {round|hexagon|pentagon}"></a>
+				<div class="details">
+					<span class="heading">Liquor</span>
+					<hr>
+					<p>We have liquor which soothes your taste buds</p>
+					<a href="{URL}" class="button">VIEW</a>
+				</div>
+				<div class="bg"></div>
+				<div class="base">
+					<img src="https://drinksenthusiast.files.wordpress.com/2014/11/the-chivas-18-by-pininfarina-chapter-2-ice-press.jpg" alt="Liquor" height="304" width="304">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4">
+			<div class="shape">
+				<a href="{URL}" class="overlay {round|hexagon|pentagon}"></a>
+				<div class="details">
+					<span class="heading">Cigars</span>
+					<hr>
+					<p>We have quality columbian cigars</p>
+					<a href="{URL}" class="button">VIEW</a>
+				</div>
+				<div class="bg"></div>
+				<div class="base">
+					<img src="https://cigarfan.files.wordpress.com/2015/07/cao-colombia-tinto.jpg" alt="Cigars" height="304" width="304">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="shape">
+				<a href="{URL}" class="overlay {round|hexagon|pentagon}"></a>
+				<div class="details">
+					<span class="heading">Shoes</span>
+					<hr>
+					<p>Have a glance for the best comfy shoes</p>
+					<a href="{URL}" class="button">VIEW</a>
+				</div>
+				<div class="bg"></div>
+				<div class="base">
+					<img src="https://www.morsepoint.co.uk/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/r/crockett_and_jones_norwich_derby_shoes_in_black_spectre.jpg" alt="Shoes" height="304" width="304">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--End of shapes in the body-->
+
+<ul>
+	{{#each model as |product|}}
+		<li>No: {{product.no}} <br> Owner: {{product.owner}} <br> City: {{product.city}} <br> Type: {{product.type}}</li>
+	{{/each}}
+</ul>
