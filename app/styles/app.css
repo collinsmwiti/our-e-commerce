@@ -1,3 +1,14 @@
+@font-face {
+  font-family: black;
+  src: url("../black.ttf");
+}
+
+@font-face {
+  font-family: pigeons;
+  src: url("../pigeons.ttf");
+}
+
+
 /*Styling the nav-bar*/
 
 .home {
@@ -10,11 +21,48 @@
 
 .span1 {
   margin-left: 90px;
-  padding-top: 10px;
+  padding: 10px 0px 0px 0px;
+  margin: 5px 2px 0px 2px;
+}
+
+#navbar-font {
+  font-family: black;
+  font-size: 30px;
+}
+
+#quote {
+  margin-top: 40px;
+  margin-bottom: -20px;
+  font-family: pigeons;
+  color: black;
 }
 
 
+/*nav {
+  margin: 30px 40px 10px 40px;
+}*/
+
+
 /*Styling of the body shapes*/
+
+body {
+  background-image: url("https://static.pexels.com/photos/4097/city-cars-traffic-lights.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 70px;
+}
+
+.circular-image {
+  border-radius: 100%;
+}
+
+#body-body {
+  margin: 50px 40px 0px 95px;
+  padding: 10px 10px 50px 50px;
+  text-align: center;
+  background-color: #eee;
+}
 
 .shape {
   width: 300px;
@@ -160,12 +208,21 @@
 
 .row {
   margin-top: 30px;
-  margin-left: -15px;
+  /*margin-left: -15px;*/
 }
 
 
-/*Styling the map*/
+/*Styling of contact route*/
 
-.maps {
-  margin-left: 360px;
+#contact-jumbo {
+  margin: 100px;
+}
+
+#about-jumbo {
+  margin: 30px;
+}
+
+#index-jumbo {
+  margin: 50px 30px 0px 90px;
+  padding-top: 10px;
 }
