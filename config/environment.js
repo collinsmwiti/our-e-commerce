@@ -16,7 +16,7 @@ module.exports = function(environment) {
         Date: false
       }
     },
-
+    /*Adding firebase*/
     firebase: {
       apiKey: "AIzaSyBr9Rim3D1ewHwrTXyf-h0BgBR1fJpbbmo",
       authDomain: "e-commerce-82d65.firebaseapp.com",
