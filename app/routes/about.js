@@ -1,4 +1,4 @@
 import Ember from 'ember';
 
-export default Ember.Route.extend({
-});
+//about us comments
+export default Ember.Route.extend({});
